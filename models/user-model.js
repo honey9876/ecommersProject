@@ -1,9 +1,8 @@
-const { trim } = require('lodash');
 const mongoose = require('mongoose');
-const { type } = require('os');
 
 
-mongoose.connect("mongodb//127.0.0.1:27017/ecommersshoping");
+
+// mongoose.connect("mongodb//127.0.0.1:27017/ecommersshoping");
 
 
 const userSchema = mongoose.Schema({
